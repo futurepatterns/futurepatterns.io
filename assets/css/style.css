@@ -1,0 +1,47 @@
+.navbar {
+    border: none;
+    transition: 800ms ease;
+}
+.navbar-brand {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+
+#patterns {
+    min-height: 100vh;
+}
+.jumbotron-content {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%, -50%);
+}
+.tagline {
+    font-weight: 800;
+    text-transform: None;
+}
+@media (max-width: 576px) {
+    .tagline {
+        font-size: 4rem;
+    }
+}
+@media (min-width: 576px) {
+    .tagline {
+        font-size: 6rem;
+    }
+}
+@media (min-width: 678px) {
+    .tagline {
+        font-size: 7rem;
+    }
+}
+
+
+footer {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+footer ul {
+    border-bottom: 1px solid #343a40;
+}

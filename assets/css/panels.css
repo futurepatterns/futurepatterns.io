@@ -1,0 +1,50 @@
+/* Setting fade transition and default settings */
+body {
+    color: #000;
+    transition: background-color 800ms ease;
+}
+
+/* Panel styles */
+.panel {
+    /* min height incase content is higher than window height */
+    /* min-height: 100vh; */
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    /* Uncomment to see the edge of panels */
+    /* outline: 10px solid hotpink; */
+}
+
+.panel h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+.panel p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+  
+/* Colors */
+.color-white {
+    /* background-color: rgba(255, 255, 255, 0.95); */
+    background-color: #fff;
+}
+.color-cyan {
+    background-color: #99DDFF;
+}
+.color-pink {
+    background-color: #FFAABB;
+}
+.color-mint {
+    background-color: #44BB99;
+}
+.color-blue {
+    background-color: #77AADD;
+}
+.color-orange {
+    background-color: #EE8866;
+}
+.color-yellow {
+    background-color: #EEDD88;
+}
