@@ -6,12 +6,13 @@ body {
 
 /* Panel styles */
 .panel {
-    /* min height incase content is higher than window height */
-    /* min-height: 100vh; */
-    padding-top: 10rem;
+    padding-top: 8rem;
     padding-bottom: 2rem;
-    /* Uncomment to see the edge of panels */
-    /* outline: 10px solid hotpink; */
+}
+@media (min-width: 576px) {
+    .panel {
+        padding-top: 10rem;
+    }
 }
 
 .panel h2 {
