@@ -267,6 +267,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script type="text/javascript" src="./assets/js/trianglify.js"></script>
+    <script type="text/javascript" src="./assets/js/color_palette.js"></script>
     <script type="text/javascript" src="./assets/js/scroll.js"></script>
     <script type="text/javascript" src="./assets/js/contact.js"></script>
     <script type="text/javascript" src="./assets/js/misc.js"></script>
@@ -276,7 +277,8 @@
       const pattern = trianglify({
           cellSize: 200,
           width: window.innerWidth,
-          height: window.innerHeight
+          height: window.innerHeight,
+          palette: colorPalette
         })
         document.getElementById("patterns").appendChild(pattern.toCanvas())
     </script>
