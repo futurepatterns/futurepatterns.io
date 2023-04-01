@@ -7,7 +7,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/bootstrap_lux.min.css">
-    <link rel="stylesheet" href="./assets/css/panels.css?v=0.1">
+    <link rel="stylesheet" href="./assets/css/panels.css?v=0.2">
     <link rel="stylesheet" href="./assets/css/style.css?v=0.1">
 
     <title>Future Patterns</title>
@@ -24,27 +24,25 @@
         <div class="collapse navbar-collapse" id="navbarColor03">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="#patterns">Home
-                <span class="visually-hidden">(current)</span>
-              </a>
+              <a id="nav-home" class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#applications">Applications</a>
+              <a id="nav-applications" class="nav-link" href="#applications">Applications</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#security">Security</a>
+              <a id="nav-security" class="nav-link" href="#security">Security</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#integrations">Integrations</a>
+              <a id="nav-integrations" class="nav-link" href="#integrations">Integrations</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#automation">Automation</a>
+              <a id="nav-automation" class="nav-link" href="#automation">Automation</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#ai">AI</a>
+              <a id="nav-ai" class="nav-link" href="#ai">AI</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a id="nav-contact" class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -52,15 +50,17 @@
     </nav>
     
     <!-- Jumbotron -->
-    <div id="patterns"></div>
-    <div class="jumbotron-content">
-      <div class="container">
-        <h1 class="tagline">Building software for the future</h1>
-        <div class="text-center mt-5 pt-2 pt-sm-5">
-          <a href="#applications" class="btn btn-outline-primary">Learn more</a>
+    <section id="home" data-color="none">
+      <div id="patterns"></div>
+      <div class="jumbotron-content">
+        <div class="container">
+          <h1 class="tagline">Building software for the future</h1>
+          <div class="text-center mt-5 pt-2 pt-sm-5">
+            <a href="#applications" class="btn btn-outline-primary">Learn more</a>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- Applications -->
     <section id="applications" class="container panel" data-color="white">
@@ -250,7 +250,7 @@
     <!-- Footer -->
     <footer class="container">
       <ul class="nav justify-content-center pb-3 mb-3">
-        <li class="nav-item"><a href="#patterns" class="nav-link px-1">Home</a></li>
+        <li class="nav-item"><a href="#home" class="nav-link px-1">Home</a></li>
         <li class="nav-item"><a href="#applications" class="nav-link px-1">Applications</a></li>
         <li class="nav-item"><a href="#security" class="nav-link px-1">Security</a></li>
         <li class="nav-item"><a href="#integrations" class="nav-link px-1">Integrations</a></li>
@@ -268,7 +268,7 @@
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script type="text/javascript" src="./assets/js/trianglify.js"></script>
     <script type="text/javascript" src="./assets/js/color_palette.js?v=0.2"></script>
-    <script type="text/javascript" src="./assets/js/scroll.js?v=0.1"></script>
+    <script type="text/javascript" src="./assets/js/scroll.js?v=0.2"></script>
     <script type="text/javascript" src="./assets/js/contact.js?v=0.1"></script>
     <script type="text/javascript" src="./assets/js/misc.js?v=0.1"></script>
 

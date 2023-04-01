@@ -7,7 +7,6 @@ body {
 /* Panel styles */
 .panel {
     padding-top: 7rem;
-    padding-bottom: 2rem;
 }
 @media (min-width: 576px) {
     .panel {
@@ -27,6 +26,9 @@ body {
 }
   
 /* Colors */
+.color-none {
+    background-color: transparent;
+}
 .color-white {
     /* background-color: rgba(255, 255, 255, 0.95); */
     background-color: #fff;
