@@ -40,6 +40,7 @@
 }
 @media (min-width: 992px) {
     .tagline {
+        min-width: 818px;
         font-size: 5rem;
     }
 }
@@ -50,27 +51,17 @@
 }
 @media (min-width: 1400px) {
     .tagline {
-        font-size: 7.3rem;
+        min-width: 1167px;
+        font-size: 8rem;
     }
 }
 
 
 .learn-more {
     position: absolute;
-}
-@media (max-height: 670px) {
-    .learn-more {
-        top: 90%;
-        left: 50%;
-        transform: translate(-50%, -90%);
-    }
-}
-@media (min-height: 670px) {
-    .learn-more {
-        top: 90%;
-        left: 50%;
-        transform: translate(-50%, -90%);
-    }
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
 }
 
 
