@@ -17,9 +17,9 @@
 }
 .jumbotron-content {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 40%;
-    transform: translate(-40%, -50%);
+    transform: translate(-40%, -45%);
 }
 
 
@@ -40,7 +40,6 @@
 }
 @media (min-width: 992px) {
     .tagline {
-        min-width: 818px;
         font-size: 5rem;
     }
 }
@@ -50,13 +49,8 @@
     }
 }
 @media (min-width: 1400px) {
-    .jumbotron-content {
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
     .tagline {
-        min-width: 1167px;
-        font-size: 8rem;
+        font-size: 7.3rem;
     }
 }
 
