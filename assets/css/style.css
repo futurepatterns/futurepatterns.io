@@ -28,10 +28,25 @@
 }
 @media (min-width: 576px) {
     .tagline {
+        font-size: 4rem;
+    }
+}
+@media (min-width: 768px) {
+    .tagline {
+        font-size: 4rem;
+    }
+}
+@media (min-width: 992px) {
+    .tagline {
+        font-size: 5rem;
+    }
+}
+@media (min-width: 1200px) {
+    .tagline {
         font-size: 6rem;
     }
 }
-@media (min-width: 678px) {
+@media (min-width: 1400px) {
     .tagline {
         font-size: 7rem;
     }
