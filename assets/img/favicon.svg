@@ -1,0 +1,18 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="32px" height="32px" viewBox="0 0 64.00 64.00" xmlns="http://www.w3.org/2000/svg" stroke-linejoin="round">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.128"/>
+
+<g id="SVGRepo_iconCarrier">
+  <polygon points="32,32 8,32 20,10" fill="#a50026" />
+  <polygon points="32,32 20,10 44,10" fill="#f46d43" />
+  <polygon points="32,32 44,10 56,32" fill="#fee090" />
+  <polygon points="32,32 56,32 44,54" fill="#e0f3f8" />
+  <polygon points="32,32 44,54 20,54" fill="#74add1" />
+  <polygon points="32,32 20,54 8,32" fill="#313695" />
+</g>
+
+</svg>

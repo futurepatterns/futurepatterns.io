@@ -6,6 +6,12 @@
     font-size: 1.6rem;
     font-weight: 700;
 }
+.navbar-brand .logo {
+    height: 40px;
+    width: 40px;
+    vertical-align: top;
+    margin-right: 5px;
+}
 
 
 #patterns {
