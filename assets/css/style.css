@@ -3,13 +3,8 @@
     transition: 800ms ease;
 }
 .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 700;
-}
-.navbar-brand .logo {
-    height: 40px;
-    width: 40px;
-    margin-right: 3px;
 }
 
 
