@@ -25,34 +25,34 @@
 
 @media (max-width: 576px) {
     .tagline {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 }
 @media (min-width: 576px) {
     .tagline {
-        font-size: 4rem;
+        font-size: 5rem;
     }
 }
 @media (min-width: 768px) {
     .tagline {
-        font-size: 4rem;
+        font-size: 6rem;
     }
 }
 @media (min-width: 992px) {
     .tagline {
         min-width: 818px;
-        font-size: 5rem;
+        font-size: 6rem;
     }
 }
 @media (min-width: 1200px) {
     .tagline {
-        font-size: 5.5rem;
+        font-size: 7rem;
     }
 }
 @media (min-width: 1400px) {
     .tagline {
         min-width: 1167px;
-        font-size: 8rem;
+        font-size: 7rem;
     }
 }
 
