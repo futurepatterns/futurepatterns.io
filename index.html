@@ -28,9 +28,6 @@
         <div class="collapse navbar-collapse" id="navbarColor03">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a id="nav-home" class="nav-link" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
               <a id="nav-applications" class="nav-link" href="#applications">Applications</a>
             </li>
             <li class="nav-item">
@@ -44,6 +41,9 @@
             </li>
             <li class="nav-item">
               <a id="nav-ai" class="nav-link" href="#ai">AI</a>
+            </li>
+            <li class="nav-item">
+              <a id="nav-testimonials" class="nav-link" href="#testimonials">Testimonials</a>
             </li>
             <li class="nav-item">
               <a id="nav-contact" class="nav-link" href="#contact">Contact</a>
@@ -193,68 +193,99 @@
       </div>
     </section>
 
-      <!-- Contact-->
-      <section id="contact" class="panel" data-color="yellow">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-7">
-              <h2 class="mb-4">Contact Us</h2>
-
-              <form id="contact-form" method="POST">
-                <p>When you're ready, we'd love to hear from you.</p>
-                <div class="row g-3">
-                  <div class="col-md-12">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="contact-name" name="name" required>
-                  </div>
-                  <div class="col-md-12">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="contact-email" name="email" required>
-                  </div>
-                  <div class="col-md-12">
-                    <label for="number" class="form-label">Contact Number</label>
-                    <input type="tel" pattern="[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}" class="form-control" id="contact-number" name="number">
-                  </div>
-                  <div class="col-12">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="contact-message" name="message" rows="5" required></textarea>
-                  </div>
-                  <!-- reCAPTCHA -->
-                  <div class="col-12">
-                    <div class="row">
-                      <div class="col d-flex justify-content-center">
-                        <div class="g-recaptcha" data-sitekey="6LfoFuUkAAAAAGFvNTRKYtcS2_5FvSMqw6di3ytp" data-callback="captchaCallback"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Submit -->
-                  <div class="col-12">
-                    <div class="row justify-content-center">
-                      <div class="col-md-6">
-                        <button type="submit" id="contact-submit" class="btn btn-dark w-100 fw-bold" disabled>Send</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </form>
-
-              <!-- Contact Success-->
-              <div id="contact-success" class="d-none">
-                <h3 class="text-center" style="margin-top: 5rem">Thank you!</h3>
-                <h4 class="text-center">We will contact you shortly.</h4>
+    <!-- Testimonials -->
+    <section id="testimonials" class="panel" data-color="purple">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <div class="row align-items-center border border-primary p-5">
+              <div class="text-primary mb-4">
+                <svg class="bi bi-quote" fill="currentColor" height="48" viewbox="0 0 16 16" width="48" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"></path></svg>
               </div>
-
-              <!-- Contact Error -->
-              <div id="contact-error" class="d-none">
-                <h3 class="text-center mb-5" style="margin-top: 5rem">Sorry, there was an error.</h3>
-                <h4 class="text-center">Please send us an email:</h4>
-                <h1 class="text-center fw-bold">info@futurepatterns.io</h1>
+              <p>
+                Reid's expertise in tech development is unparalleled.
+              </p>
+              <p>
+                His innovative approach and deep understanding of the latest technologies have consistently delivered
+                exceptional results for our projects. Reid's dedication to excellence and ability to solve complex
+                problems make him an invaluable asset to any team.
+              </p>
+              <p>
+                I highly recommend Reid Mello for anyone seeking top-notch tech development consulting services.
+              </p>
+              <h5 class="fw-bold"><a href="https://www.linkedin.com/in/kevinhumphreys3782/" target="_blank">Kevin Humphreys</a></h5>
+              <div>
+                CEO, <a href="https://attender.ai" target="_blank">Attender AI</a>
               </div>
-
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+
+    <!-- Contact-->
+    <section id="contact" class="panel" data-color="yellow">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <h2 class="mb-4">Contact Us</h2>
+
+            <form id="contact-form" method="POST">
+              <p>When you're ready, we'd love to hear from you.</p>
+              <div class="row g-3">
+                <div class="col-md-12">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="contact-name" name="name" required>
+                </div>
+                <div class="col-md-12">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="contact-email" name="email" required>
+                </div>
+                <div class="col-md-12">
+                  <label for="number" class="form-label">Contact Number</label>
+                  <input type="tel" pattern="[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}" class="form-control" id="contact-number" name="number">
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="contact-message" name="message" rows="5" required></textarea>
+                </div>
+                <!-- reCAPTCHA -->
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col d-flex justify-content-center">
+                      <div class="g-recaptcha" data-sitekey="6LfoFuUkAAAAAGFvNTRKYtcS2_5FvSMqw6di3ytp" data-callback="captchaCallback"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Submit -->
+                <div class="col-12">
+                  <div class="row justify-content-center">
+                    <div class="col-md-6">
+                      <button type="submit" id="contact-submit" class="btn btn-dark w-100 fw-bold" disabled>Send</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+
+            <!-- Contact Success-->
+            <div id="contact-success" class="d-none">
+              <h3 class="text-center" style="margin-top: 5rem">Thank you!</h3>
+              <h4 class="text-center">We will contact you shortly.</h4>
+            </div>
+
+            <!-- Contact Error -->
+            <div id="contact-error" class="d-none">
+              <h3 class="text-center mb-5" style="margin-top: 5rem">Sorry, there was an error.</h3>
+              <h4 class="text-center">Please send us an email:</h4>
+              <h1 class="text-center fw-bold">info@futurepatterns.io</h1>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
 
     </div>
 
@@ -269,7 +300,7 @@
         <li class="nav-item"><a href="#ai" class="nav-link px-1">AI</a></li>
         <li class="nav-item"><a href="#contact" class="nav-link px-1">Contact</a></li>
       </ul>
-      <p class="text-center">Future Patterns &copy; 2023</p>
+      <p class="text-center">Future Patterns &copy; 2025</p>
     </footer>
 
     <!-- JS -->
